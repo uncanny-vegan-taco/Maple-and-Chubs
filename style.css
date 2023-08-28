@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    font-size: 2em;
+}
+.navbar{
+    display: block;
+    background-color: blueviolet;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    line-height: 1.5em;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.slideshow{
+    width: 100%;
+
+}
+.slideshow img{
+    width: 100%;
+}
