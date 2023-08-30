@@ -13,7 +13,7 @@ photos.src = photos[index];
 
 console.log(photos);
 
-function scrollImage(direction){
+addEventListener("click" , function scrollImage(direction){
     if(direction == "left"){
         index--;
     }else{
@@ -25,4 +25,4 @@ function scrollImage(direction){
         index = photos.length -1;
     }
     
-}
+});

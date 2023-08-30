@@ -9,6 +9,7 @@ header{
 }
 .navbar{
     display: block;
+    position: sticky;
     background-color: blueviolet;
 }
 
