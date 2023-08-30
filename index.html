@@ -18,8 +18,14 @@
             <li><a href = "#">Comments</a></li>
         </ul>
     </nav>
-    <article class="slideshow">
-        <img src="Images/Maple.png" alt="Maple">
+    <article id="slideshow">
+        <div>
+            <button id="back" onclick="scrollImage('left')">&#10094;</button>
+            <button id="forward" onclick="scrollImage('right')">&#10095;</button>    
+        </div>
+        <div>
+            <img id="img1">
+        </div>
     </article>
     <script src="events.js"></script>
 </body>
